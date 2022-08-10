@@ -1,0 +1,47 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/46fbcd62-0877-4d93-85ad-7967c68351bc",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8752843180119572481",
+        "name": "enemy",
+        "needSync": "true",
+        "position": "x:1.5099549293518 y:10 z:13.251474380493",
+        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

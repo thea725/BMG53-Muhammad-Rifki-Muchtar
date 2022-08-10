@@ -1,0 +1,4 @@
+BLOCK_TOUCH {
+	Damage(damage = 10, entity = $obj1)
+	SetEntityPosition(entity = $obj1, map = $map, pos = { x = 1, y = 10, z = 1 }, rp = 0, ry = 0)
+}
