@@ -1,0 +1,85 @@
+{
+  "data": {
+    "name": {
+      "value": "block_6abad914-87ab-4968-ace8-b1a3d6df987b"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/cobblestone.png",
+        "selector": "asset/Texture/Block/cobblestone.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/cobblestone.png",
+        "selector": "asset/Texture/Block/cobblestone.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/cobblestone.png",
+        "selector": "asset/Texture/Block/cobblestone.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/cobblestone.png",
+        "selector": "asset/Texture/Block/cobblestone.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/cobblestone.png",
+        "selector": "asset/Texture/Block/cobblestone.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "asset/Texture/Block/grass_top.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "d4483d74-f10f-4f3c-bc1d-0617ec50c3d2"
+              },
+              "pos": {
+                "x": 630,
+                "y": 381
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "aeb808a1-a931-441e-b4e5-48a902b90666"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d4483d74-f10f-4f3c-bc1d-0617ec50c3d2"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fc2a572f-9705-460e-9d6f-49d1e3e8176f"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "71097a742797354127f5746cb24b3811",
+      "triggers.bts": "16fecf89408c4ba108f1919e45ac6554"
+    },
+    "VERSION": "0.21"
+  }
+}

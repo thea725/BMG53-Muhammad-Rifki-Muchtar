@@ -1,0 +1,187 @@
+{
+  "data": {
+    "name": {
+      "value": "block_7e3d2646-0e74-41c7-83c9-01035bc5dbaf"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0f02819d-c8a8-4aef-924c-4e2515543541"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7d861297-3975-439a-8483-cd633f00ace6"
+              },
+              "pos": {
+                "x": 435,
+                "y": 20
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d002ae83-e80a-420a-9058-5ef823a621ea"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "action": "772ef414-64b0-401c-a1a9-5ab06fe6f2c3",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 1,
+                            "y": 10,
+                            "z": 1
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "99bb3283-c445-4fec-ae36-f7432fd8c257"
+              },
+              "pos": {
+                "x": 470,
+                "y": 243
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "0f02819d-c8a8-4aef-924c-4e2515543541"
+              },
+              "pos": {
+                "x": 803
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d002ae83-e80a-420a-9058-5ef823a621ea"
+              },
+              "pos": {
+                "x": 981,
+                "y": 157
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "map"
+                }
+              ],
+              "id": {
+                "value": "772ef414-64b0-401c-a1a9-5ab06fe6f2c3"
+              },
+              "pos": {
+                "x": 963,
+                "y": 353
+              },
+              "type": "T_MapObj"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f1ee7f9f-66e8-420d-88f1-a9ef3a025198"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "7d861297-3975-439a-8483-cd633f00ace6"
+                  },
+                  {
+                    "action": "99bb3283-c445-4fec-ae36-f7432fd8c257"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7e0e7cad-ddf4-43d5-989a-ddadf5e76836"
+            },
+            "pos": {
+              "x": 244,
+              "y": 125
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "58ea9fb30309ca21e7a129e12bb12ac8",
+      "triggers.bts": "73bc2167a516840bb77e431ac9e9d2c9"
+    },
+    "VERSION": "0.21"
+  }
+}
