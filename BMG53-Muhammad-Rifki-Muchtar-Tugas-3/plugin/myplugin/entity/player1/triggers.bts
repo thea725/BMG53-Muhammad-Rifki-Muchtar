@@ -1,3 +1,0 @@
-ENTITY_REBIRTH {
-	Damage(damage = 10, entity = $obj1)
-}
